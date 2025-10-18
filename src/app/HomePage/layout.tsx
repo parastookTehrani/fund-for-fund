@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Nav } from "./components/Nav";
+import Footer from "./components/Footer";
 
 interface LayoutProps {
   children: ReactNode;
@@ -8,8 +8,9 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <div>
-      <Nav />
+      
       {children}
+      <Footer />
     </div>
   );
 }

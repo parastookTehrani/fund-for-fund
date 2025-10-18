@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 export const Nav = () => {
   return (
     <nav className="py-[6px] px-[5%] md:py-[16px] md:px-[10%] flex items-center justify-between">
       <Image src="/Vector.png" width={27} height={48} alt="logo" />
       <div className="flex gap-[22px] items-center md:hidden">
-        <span>
+        {/* <span>
           <svg
             width="20"
             height="20"
@@ -21,8 +22,8 @@ export const Nav = () => {
               fill="#644FC1"
             />
           </svg>
-        </span>
-        <span>
+        </span> */}
+        {/* <span>
           <svg
             width="24"
             height="16"
@@ -37,7 +38,7 @@ export const Nav = () => {
               fill="#644FC1"
             />
           </svg>
-        </span>
+        </span> */}
       </div>
       <div className="hidden md:flex items-center gap-20 justify-between">
         <ul className="flex gap-6 text-[#444444]">
@@ -56,7 +57,7 @@ export const Nav = () => {
         </ul>
         <div className="flex items-center gap-6 ">
           <div className="flex items-center gap-3.5 p-2.5 border-[0.5px] rounded border-[#E7E7E7] shadow-[-2px_2px_10px_0px_#95959526]">
-            <span>
+            {/* <span>
               <svg
                 width="20"
                 height="20"
@@ -71,13 +72,13 @@ export const Nav = () => {
                   fill="#959595"
                 />
               </svg>
-            </span>
+            </span> */}
             <input
               type="text"
               placeholder="Search brand, category, tag or..."
             />
           </div>
-          <div>login</div>
+          <div>Signin/Signup</div>
         </div>
       </div>
     </nav>

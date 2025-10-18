@@ -1,9 +1,11 @@
-import { Nav } from "./Home/components/Nav";
-import HomePage from "./Home/page";
+import Footer from "./HomePage/components/Footer";
+import HomePage from "./HomePage/page";
+
 
 export default function Home() {
   return <>
-  <Nav />
-  <HomePage />
+  
+  <HomePage/>
+  <Footer />
   </>
 }
