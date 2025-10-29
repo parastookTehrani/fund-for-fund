@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./shared/button";
-import Input from "./shared/input";
 
 
 export const Nav = () => {
@@ -45,7 +44,7 @@ export const Nav = () => {
       <div className="hidden md:flex items-center gap-20 justify-between">
         <ul className="flex gap-6 text-[#444444]">
           <li >
-            <Link  href={""}>Home</Link>
+            <Link  href="/">Home</Link>
           </li>
           <li>
             <Link href={""}>Explore</Link>
@@ -82,7 +81,9 @@ export const Nav = () => {
             />
           </div>
           <div className="w-15">
-          <Button>SignIn</Button>
+          <Button>
+            <Link href="/Signin">SignIn</Link>
+          </Button>
           </div>
         </div>
       </div>
