@@ -53,9 +53,9 @@ export default function Signin() {
           />
           <Input label="Password" type="password" placeholder="••••••••" />
           <div className="text-right">
-            <a href="#" className="text-xs text-[#644FC1] hover:underline">
+            <Link href="/forgot-password" className="text-xs text-[#644FC1] hover:underline">
               Forgot your password?
-            </a>
+            </Link>
           </div>
           <Button type="submit">Continue</Button>
         </form>
