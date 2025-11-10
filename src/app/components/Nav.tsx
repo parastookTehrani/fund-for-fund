@@ -80,7 +80,7 @@ export const Nav = () => {
               placeholder="Search brand, category, tag or..."
             />
           </div>
-          <div className="w-15">
+          <div >
           <Button>
             <Link href="/Signin">SignIn</Link>
           </Button>
